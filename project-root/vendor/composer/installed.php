@@ -3,7 +3,7 @@
         'name' => 'codeigniter4/appstarter',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a9e4e75481aa80a5bbb1fb675c8053acd31b247a',
+        'reference' => '9ecc80fd30cd2c741534401521c77f49b07dea8b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'codeigniter4/appstarter' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a9e4e75481aa80a5bbb1fb675c8053acd31b247a',
+            'reference' => '9ecc80fd30cd2c741534401521c77f49b07dea8b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -44,7 +44,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../fakerphp/faker',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'laminas/laminas-escaper' => array(
             'pretty_version' => '2.12.0',
@@ -161,7 +161,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/container',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'psr/log' => array(
             'pretty_version' => '1.1.4',
@@ -323,7 +323,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.2.3',
