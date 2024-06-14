@@ -26,6 +26,7 @@
                     <a class="nav-link <?= ($_SERVER['REQUEST_URI'] == '/page/about') ? 'active' : ''; ?>" href="/page/about">About</a>
                     <a class="nav-link <?= ($_SERVER['REQUEST_URI'] == '/page/contact') ? 'active' : ''; ?>" href="/page/contact">Contact</a>
                     <a class="nav-link <?= ($_SERVER['REQUEST_URI'] == '/books/') ? 'active' : ''; ?>" href="/books/">Books</a>
+                    <a class="nav-link <?= ($_SERVER['REQUEST_URI'] == '/penulis/') ? 'active' : ''; ?>" href="/penulis/">Books Author</a>
                 </div>
             </div>
         </div>

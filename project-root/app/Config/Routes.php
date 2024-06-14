@@ -21,4 +21,6 @@ $routes->post('save', 'Books::save');
 
 $routes->get('/books/(:any)', 'Books::detail/$1');
 
+$routes->get('/penulis/index', 'Penulis::index');
+
 //$routes->setAutoRoute(true);
